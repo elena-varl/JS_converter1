@@ -1,21 +1,38 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-    <title>Lesson 4</title>
-    <meta charset="UTF-8"/>
-
-    <script src="src/index.js" type="module"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<link rel="stylesheet" href="src/css/style.css">
 </head>
-
 <body>
-<h1>Implement the symbolic diff here</h1>
-<div id="container">
-
-</div>
-<div>
-    <button id="demoButton">
-        Add something
-    </button>
-</div>
+	<h1>Здесь можно узнать, сколько тебе нужно сахара/муки/других сыпучих продуктов</h1>
+	<h2>В помощь хозяюшке</h2>
+	<div class="convert_wrapper">
+		<div class="convert_block_item">
+	    <input type="number" id="val" placeholder="Введите значение..." />
+		    <select id="tare1">
+		        <option>граммы</option>
+		        <option>килограммы</option>
+		        <option>гранёный стакан</option>
+		        <option>тонкий стакан</option>
+		        <option>столовая ложка</option>
+		        <option>чайная ложка</option>
+		    </select>
+		</div>
+		<button id="button">=</button>
+		<div class="convert_block_item">
+		    <div class="convert_result">00,000</div>
+		    <select id="tare2">
+		        <option>граммы</option>
+		        <option>килограммы</option>
+		        <option>гранёный стакан</option>
+		        <option>тонкий стакан</option>
+		        <option>столовая ложка</option>
+		        <option>чайная ложка</option>
+		    </select>
+		</div>
+	</div>
+	<div id="img" class="img"></div>
+	<script type="text/javascript" src="src/js/script.js" ></script>
 </body>
 </html>

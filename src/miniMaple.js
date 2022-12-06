@@ -1,5 +1,0 @@
-class MiniMaple{
-
-}
-
-export {MiniMaple}
